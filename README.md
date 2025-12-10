@@ -1,6 +1,7 @@
 # Sistema de Recuperación de Información
 
-**Autor:** (Angel Falcon, Inti Poaquiza) — Código: `proyectoRI.py`
+**Autor:** (Angel Falcon, Inti Poaquiza) — Código: [`proyectoRI.py`](https://github.com/intiinside/rip1b/blob/main/proyectoRI.py)
+
 
 **Resumen**
 
@@ -101,7 +102,7 @@ pip install nltk pandas scikit-learn tabulate rank_bm25
 5. Ejecutar el sistema:
 
 ```bash
-python proyectoIR.py
+python proyectoRI.py
 ```
 
 El sistema mostrará un menú interactivo en la consola con las opciones para inspeccionar el dataset, construir índices, realizar búsquedas y ejecutar la evaluación.
@@ -110,7 +111,7 @@ El sistema mostrará un menú interactivo en la consola con las opciones para in
 
 ## Descripción del código y funciones principales
 
-A continuación se documentan las funciones y componentes más relevantes dentro de `proyectoIR.py` (breve resumen técnico):
+A continuación se documentan las funciones y componentes más relevantes dentro de `proyectoRI.py` (breve resumen técnico):
 ```bash
 proyectoRI.py
 ├── Sistema_RI()                            # Menú principal del sistema
@@ -212,7 +213,7 @@ proyectoRI.py
 
 ## Modo de uso / Ejemplos
 
-1. Inicie el script: `python proyectoIR.py`.
+1. Inicie el script: `python proyectoRI.py`.
 2. En el menú seleccione la opción `1` para verificar que el corpus ha sido cargado correctamente.
 ```bash
 ================================================================================
