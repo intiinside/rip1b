@@ -1,6 +1,6 @@
 # Sistema de Recuperación de Información
 
-**Autor:** (Angel Falcon, Inti Poaquiza) — Código: `proyectoIR.py`
+**Autor:** (Angel Falcon, Inti Poaquiza) — Código: `proyectoRI.py`
 
 **Resumen**
 
@@ -43,13 +43,13 @@ El propósito es proporcionar una base práctica para experimentar con conceptos
 ## Estructura del proyecto
 
 ```
-Proyecto_RI/
-├── proyectoIR.py        # Código principal (implementación completa)
+rip1b/
+├── proyectoRI.py        # Código principal (implementación completa)
 ├── bbc_news.csv         # Corpus de noticias BBC (CSV)
 ├── README.md            # (este archivo)
 ```
 
-> Nota: en el archivo `proyectoIR.py` se encuentran todas las funciones y el menú principal `Sistema_RI()` que coordina la ejecución.
+> Nota: en el archivo `proyectoRI.py` se encuentran todas las funciones y el menú principal `Sistema_RI()` que coordina la ejecución.
 
 ---
 
@@ -112,7 +112,7 @@ El sistema mostrará un menú interactivo en la consola con las opciones para in
 
 A continuación se documentan las funciones y componentes más relevantes dentro de `proyectoIR.py` (breve resumen técnico):
 ```bash
-proyectoIR.py
+proyectoRI.py
 ├── Sistema_RI()                            # Menú principal del sistema
 │
 ├── Carga del Corpus
