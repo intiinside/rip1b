@@ -21,7 +21,7 @@ El propósito es proporcionar una base práctica para experimentar con conceptos
 7. [Evaluación del sistema](#evaluaci%C3%B3n-del-sistema)
 8. [Buenas prácticas y recomendaciones](#buenas-pr%C3%A1cticas-y-recomendaciones)
 9. [Extensiones sugeridas / Trabajo futuro](#extensiones-sugeridas--trabajo-futuro)
-10. [Licencia](#licencia)
+10. [Contacto](#contacto)
 
 ---
 
@@ -237,7 +237,7 @@ Eliga una opción:
 
 ---
 
-## Evaluación: métricas, interpretación y limitaciones
+## Evaluación del sistema
 
 * El sistema calcula Precisión (P), Exhaustividad (Recall), Average Precision (AP) por consulta y Mean Average Precision (MAP) por modelo, ejemplo:
 ```bash
@@ -268,7 +268,7 @@ Eliga una opción:
 
 ---
 
-## Buenas prácticas y recomendaciones para reproducibilidad
+## Buenas prácticas y recomendaciones
 
 * Versionar el dataset o indicar su procedencia y checksum (MD5/SHA256) para garantizar reproducibilidad.
 * Registrar la versión de Python y de las librerías críticas (scikit-learn, rank_bm25, nltk).
@@ -281,16 +281,6 @@ Eliga una opción:
 * Añadir manejo de sinónimos y expansión de consulta (thesaurus/WordNet).
 * Relevancia y ponderación por campos (si el CSV contiene título, fecha, categoría).
 * Interfaz web sencilla (Flask/FastAPI) para facilitar pruebas y demos.
-* Persistencia del índice invertido en disco (por ejemplo, formato JSON o un pequeño motor NoSQL) para evitar reconstrucción en cada ejecución.
-* Experimentos controlados: comparar variantes de preprocesamiento (sin stemming, con lematización, con n-grams) y reportar MAP.
-
-
----
-
-## Créditos y referencias
-
-* Corpus BBC News: conjunto de noticias (usar la fuente original y atribuir según corresponda).
-* Implementaciones y conceptos basados en la materia de IR-EPN, ref: Manning, Raghavan & Schütze — *Introduction to Information Retrieval*.
 
 
 ---
